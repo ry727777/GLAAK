@@ -7,7 +7,5 @@ int main(){
 	// Escape Sequence
 	printf("Name\tAge\tSection\n");
 	printf("Rahul\t26\tAK\n");
-	printf("Hi, \"Good Evening.\"");
-	
-	
+	printf("Hi, \"Good Evening.\"");	
 }
