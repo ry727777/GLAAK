@@ -9,6 +9,5 @@ int main(){
 	scanf("%d%d%d", &initial_score, &points_earned, &points_lost);
 	int final_score = initial_score + points_earned - points_lost;
 	printf("Final Score = %d\n",final_score);
-	printf("Completed Levels = %d\n",level++);
-	printf("Completed Levels = %d",level);
+	printf("Completed Levels = %d\n",++level);
 }

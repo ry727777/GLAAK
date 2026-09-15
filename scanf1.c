@@ -10,6 +10,11 @@ int main(){
  	printf("Enter a char value:- ");
  	scanf("%c", &ch);
  	printf("Entered value is:- %c",ch);
+ 	
+ 	float fl;
+ 	printf("Enter a decimal value:- ");
+ 	scanf("%f",&fl);
+ 	printf("Entered decimal value is- %.2f",fl);
 	
 	return 0;
 }

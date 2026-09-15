@@ -6,9 +6,7 @@ int main(){
 	float marks;
 	
 	printf("Input: ");
-	scanf("%d",&roll_num);
-	scanf(" %c",&initial);
-	scanf("%f",&marks);
+	scanf("%d %c %f",&roll_num,&initial,&marks);
 	
 	printf("Roll no: %d | Initial: %c | Marks: %.2f",roll_num,initial,marks);
 	

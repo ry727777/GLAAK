@@ -5,5 +5,5 @@ int main(){
 	float marks = 57.56;
 	char ch = 'A';
 	printf("%d\t%.2f\t%c",age,marks,ch);
-	return;
+	return 0;
 }
