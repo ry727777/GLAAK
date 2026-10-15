@@ -1,8 +1,10 @@
 #include<stdio.h>
 
 int main(){
-	if(1)
-	   printf("INSIDE IF BLOCK");
+	if(1){
+		printf("INSIDE IF BLOCK\n");	
+	}
+	printf("INSDIE IF BLOCK AGAIN\n");
 	else
-       printf("INSIDE ELSE BLOCK");
+       printf("INSIDE ELSE BLOCK\n");
 }
